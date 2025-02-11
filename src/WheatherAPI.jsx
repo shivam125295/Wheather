@@ -7,7 +7,7 @@ const WheatherAPI = () => {
     const [error, setError] = useState(null);
 
     let base_url = "http://api.openweathermap.org/data/2.5/weather?";
-    let api_key = "b1b35bba8b434a28a0be2a3e1071ae5b";
+    let api_key = "c2113d0d2abe993f35bebfcb16a36397";
 
     const wheatherHandler = () => {
         if (!city.trim()) {
