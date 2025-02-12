@@ -6,8 +6,8 @@ const WheatherAPI = () => {
     const [city, setCity] = useState("");
     const [error, setError] = useState(null);
 
-    let base_url = "http://api.openweathermap.org/data/2.5/weather?";
-    let api_key = "cdc4521a8cd44a85ae683841cdfb57bd";
+    let base_url = "curl --request GET --url 'https://api.tomorrow.io/v4/weather/forecast?location=42.3478,-71.046;
+    let api_key = "AKb7fCVdDzwBHAwibrCYEwrsD4wRmdhZ";
 
     const wheatherHandler = () => {
         if (!city.trim()) {
